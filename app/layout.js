@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       "Menulang": "FR",
       "btnStyle": {
         "vPosition": [
-          "80%",
+          "90%",
           "20%"
         ],
         "scale": [
