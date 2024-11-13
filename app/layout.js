@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     window.interdeal = {
       "sitekey": "83ba71bf18d84207f7fb0b18fa77c25e",
-      "Position": "Left",
+      "Position": "Right",
       "domains": {
         "js": "https://cdn.equalweb.com/",
         "acc": "https://access.equalweb.com/"
@@ -28,15 +28,15 @@ export default function RootLayout({ children }) {
       "Menulang": "FR",
       "btnStyle": {
         "vPosition": [
-          "80%",
-          "80%"
+          "90%",
+          "20%"
         ],
         "scale": [
           "0.5",
           "0.5"
         ],
         "color": {
-          "main": "#1c4bb6",
+          "main": "#B87FE5",
           "second": "#ffffff"
         },
         "icon": {
