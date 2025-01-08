@@ -17,7 +17,6 @@ module.exports = {
       },
       fontFamily: {
         luciole : ['Luciole'],
-        poppins : ['Poppins'],
       }
     },
   },
