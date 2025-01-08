@@ -16,7 +16,8 @@ module.exports = {
         pc: "1025px",
       },
       fontFamily: {
-        title : ['title', 'sans-serif'],
+        luciole : ['Luciole'],
+        poppins : ['Poppins'],
       }
     },
   },
