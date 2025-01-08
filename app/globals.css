@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'title';
+  src: url('./fonts/Luciole-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: bold;
+}

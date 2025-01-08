@@ -11,6 +11,13 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        tablet: "933px",
+        pc: "1025px",
+      },
+      fontFamily: {
+        title : ['title', 'sans-serif'],
+      }
     },
   },
   plugins: [],
