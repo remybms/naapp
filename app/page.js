@@ -21,13 +21,13 @@ export default function Home() {
         </div>
         <Link href="#discord" className="flex tablet:hidden"><img src="/img/fleche.png" width="200" /></Link>
         <Link href="#presentation" className="hidden tablet:flex"><img src="/img/fleche.png" width="200" /></Link>
-        <div className="tablet:grid tablet:grid-cols-3 tablet:items-center">
+        <div className="tablet:grid tablet:grid-cols-3 tablet:items-center tablet:mt-10">
           <div className="flex text-center tablet:text-start tablet:items-start flex-col m-4 space-y-4 items-center col-span-2">
             <div className="font-bold text-4xl pc:text-5xl">Nouveau serveur Discord</div>
             <div className="pc:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia. Praesent sollicitudin vulputate ex, ut pulvinar est euismod eu. Nullam diam metus, iaculis sit amet sollicitudin ut, porta sed lorem. Cras faucibus neque sit amet neque faucibus, posuere facilisis ex lobortis. Aliquam velit diam, mollis ut semper eget, egestas vitae tortor. Quisque ac rhoncus lectus. Morbi sit amet lobortis sem.
             </div>
-            <Link href="https://discord.gg/wcRW6wfNq6" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-1/2 pc:w-1/3" id="discord">
+            <Link href="https://discord.gg/wcRW6wfNq6" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-3/4 pc:w-1/3" id="discord">
               <div className="flex items-center bg-violet hover:bg-white rounded-full p-4 space-x-2 justify-center  hover:text-violet">
                 <FaDiscord size={42} />
                 <div>
