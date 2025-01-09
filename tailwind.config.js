@@ -10,14 +10,18 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        blue: "#86AAFD",
+        violet: "#B87FE5",
+        black: "#000000",
+        white: "#FFFFFF",
       },
       screens: {
-        tablet: "933px",
+        tablet: "431px",
         pc: "1025px",
       },
       fontFamily: {
         luciole : ['Luciole'],
-      }
+      },
     },
   },
   plugins: [],
