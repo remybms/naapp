@@ -27,7 +27,7 @@ export default function Home() {
             <div className="pc:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia. Praesent sollicitudin vulputate ex, ut pulvinar est euismod eu. Nullam diam metus, iaculis sit amet sollicitudin ut, porta sed lorem. Cras faucibus neque sit amet neque faucibus, posuere facilisis ex lobortis. Aliquam velit diam, mollis ut semper eget, egestas vitae tortor. Quisque ac rhoncus lectus. Morbi sit amet lobortis sem.
             </div>
-            <Link href="https://discord.gg/wcRW6wfNq6" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-1/2 pc:w-1/3" id="discord">
+            <Link href="https://discord.gg/wcRW6wfNq6" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-3/4 pc:w-1/3" id="discord">
               <div className="flex items-center bg-violet hover:bg-white rounded-full p-4 space-x-2 justify-center  hover:text-violet">
                 <FaDiscord size={42} />
                 <div>
