@@ -42,7 +42,7 @@ function Hamburger() {
                 <Link href="/community" className='mb-3 w-fit'>Communauté</Link>
                 <Link href="/faq" className='mb-3 w-fit'>FAQ</Link>
                 <Link href="/neuroatypie" className='mb-3 w-fit'>Liste des neuroatypies</Link>
-                <Link href="https://discord.gg/wcRW6wfNq6" className='w-fit'><IoLogoDiscord size={42} /></Link>
+                <Link href="https://discord.gg/wcRW6wfNq6" target="blank" className='w-fit'><IoLogoDiscord size={42} /></Link>
             </Menu>
         </div>
     )

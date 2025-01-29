@@ -12,7 +12,7 @@ export default function Header(){
                 <Link href="/neuroatypie">La neuroatypie</Link>
                 <Link href="/community">La communauté</Link>
                 <Link href="/faq">FAQ</Link>
-                <Link href="https://discord.gg/wcRW6wfNq6"><IoLogoDiscord size={42} /></Link>
+                <Link href="https://discord.gg/wcRW6wfNq6" target="blank"><IoLogoDiscord size={42} /></Link>
             </div>
         </div>
         <div className="flex tablet:hidden bg-gradient-to-r from-blue to-violet w-screen h-24 items-center justify-between">
