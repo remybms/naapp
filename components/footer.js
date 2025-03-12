@@ -8,7 +8,8 @@ export default function Footer() {
                 <div className="col-span-2">
                     <img src="/img/LOGO_PRINCIPAL.png" className="w-1/2" />
                     <div className="text-gray-500 w-2/3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia.
+                        Retrouvez-nous sur vos plateformes préférées pour ne rien manquer de nos actualités, épisodes de podcast et événements.
+                        Vous souhaitez partager votre expérience, poser une question ou simplement nous contacter ? Nous sommes à votre écoute !
                     </div>
                 </div>
                 <div className="flex flex-col space-y-4">
@@ -35,7 +36,8 @@ export default function Footer() {
             <div className="flex flex-col tablet:hidden p-4 space-y-2">
                 <img src="/img/LOGO_PRINCIPAL.png" className="w-1/2" />
                 <div className="text-gray-500">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia.
+                    Retrouvez-nous sur vos plateformes préférées pour ne rien manquer de nos actualités, épisodes de podcast et événements.
+                    Vous souhaitez partager votre expérience, poser une question ou simplement nous contacter ? Nous sommes à votre écoute !
                 </div>
                 <div className="flex justify-around text-white border-y-2 border-gray-500 py-4">
                     <Link href="https://www.youtube.com/@naapp_app" target="blank" className="bg-black rounded-xl p-2"><FaYoutube size={42} /></Link>
