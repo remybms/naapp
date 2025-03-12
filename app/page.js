@@ -14,7 +14,7 @@ export default function Home() {
           <div className="m-4 pc:space-y-12">
             <h1 className="font-bold text-4xl pc:text-5xl my-2">NAAPP</h1>
             <div className="pc:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia. Praesent sollicitudin vulputate ex, ut pulvinar est euismod eu. Nullam diam metus, iaculis sit amet sollicitudin ut, porta sed lorem. Cras faucibus neque sit amet neque faucibus, posuere facilisis ex lobortis. Aliquam velit diam, mollis ut semper eget, egestas vitae tortor. Quisque ac rhoncus lectus. Morbi sit amet lobortis sem.
+              NAAPP est un projet dédié à la sensibilisation et à l’échange autour de la neurodiversité. Que vous soyez concerné(e), proche aidant ou simplement non-sensibilisé, découvrez nos contenus et ressources pour mieux comprendre les fonctionnements neuroatypiques et déconstruire les idées reçues.
             </div>
           </div>
           <Link href="/neuroatypie" className="bg-black text-white p-8 rounded-b-lg pc:col-span-2">En savoir plus sur la neuroatypie &gt;</Link>
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex text-center tablet:text-start tablet:items-start flex-col m-4 space-y-4 items-center col-span-2">
             <div className="font-bold text-4xl pc:text-5xl">Nouveau serveur Discord</div>
             <div className="pc:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia. Praesent sollicitudin vulputate ex, ut pulvinar est euismod eu. Nullam diam metus, iaculis sit amet sollicitudin ut, porta sed lorem. Cras faucibus neque sit amet neque faucibus, posuere facilisis ex lobortis. Aliquam velit diam, mollis ut semper eget, egestas vitae tortor. Quisque ac rhoncus lectus. Morbi sit amet lobortis sem.
+              Vous souhaitez échanger avec d’autres personnes neuroatypiques, poser vos questions ou simplement partager votre expérience ? Notre serveur Discord est un espace bienveillant où vous pourrez discuter, découvrir des ressources et participer à nos événements en ligne.
             </div>
             <Link href="https://discord.gg/wcRW6wfNq6" target="blank" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-3/4 pc:w-1/3">
               <div className="flex items-center bg-violet hover:bg-white rounded-full p-4 space-x-2 justify-center  hover:text-violet">
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex flex-col m-4 space-y-4 items-center text-center">
           <div className="font-bold text-4xl">Notre podcast</div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque at tellus consequat feugiat sit amet id quam. Cras gravida dui ut nisi ullamcorper, vel imperdiet sapien lacinia. Praesent sollicitudin vulputate ex, ut pulvinar est euismod eu. Nullam diam metus, iaculis sit amet sollicitudin ut, porta sed lorem. Cras faucibus neque sit amet neque faucibus, posuere facilisis ex lobortis. Aliquam velit diam, mollis ut semper eget, egestas vitae tortor. Quisque ac rhoncus lectus. Morbi sit amet lobortis sem.
+            Notre podcast met en lumière la neurodiversité à travers des témoignages, des interviews de l’entourage et des discussions autour des défis et des forces des personnes neuroatypiques. Un nouvel épisode chaque mois, disponible sur toutes les plateformes d’écoute !
           </div>
           <Link href="https://www.youtube.com/@naapp_app" target="blank" className="p-1 bg-gradient-to-r from-[#CB0000] from-60% to-[#AF81DF] text-red-500 font-bold hover:animate-zoomIn rounded-full w-full pc:w-1/2" >
             <div className="flex items-center bg-white hover:bg-red-500 rounded-full p-4 space-x-2 justify-center  hover:text-white ">
