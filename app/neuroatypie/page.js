@@ -107,8 +107,7 @@ export default function Neuroatypie() {
                                     Les personnes autistes peuvent avoir une manière différente de comprendre les codes sociaux, des intérêts spécifiques intenses et une sensibilité sensorielle particulière. Leur fonctionnement unique est une force, mais l’adaptation à un environnement non inclusif peut être un défi. L’autisme n’est ni une maladie ni un handicap intellectuel systématique.
                                 </div>
                                 <div className="space-x-5">
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 1</Link>
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 2</Link>
+                                    <Link href="https://gncra.fr/" className="border-b-2 px-1 border-black" target="blank">En savoir plus</Link>
                                 </div>
                             </div>
                         </div>
@@ -123,8 +122,7 @@ export default function Neuroatypie() {
                                     <span className="font-bold">La précocité intellectuelle</span>, aussi appelée <span className="font-bold">Haut Potentiel Intellectuel (HPI)</span>, désigne un fonctionnement cognitif atypique caractérisé par une intelligence supérieure à la moyenne. Selon le QI mesuré, on distingue le <span className="font-bold">HPI (≥130)</span>, le <span className="font-bold">Très Haut Potentiel Intellectuel (THPI) (≥145)</span> et le <span className="font-bold">Très Très Haut Potentiel Intellectuel (TTHPI) (≥160)</span>
                                 </div>
                                 <div className="space-x-5">
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 1</Link>
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 2</Link>
+                                    <Link href="https://www.education.gouv.fr/la-scolarisation-des-eleves-intellectuellement-precoces-9878" className="border-b-2 px-1 border-black" target="blank">En savoir plus</Link>
                                 </div>
                             </div>
                         </div>
@@ -140,8 +138,7 @@ export default function Neuroatypie() {
                                 <div className="text-justify">
                                     Cette richesse émotionnelle est une force pour la communication, la créativité et les relations humaines, mais peut aussi être un défi lorsqu’elle entraîne une surcharge émotionnelle ou une difficulté à poser des limites.                                </div>
                                 <div className="space-x-5">
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 1</Link>
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 2</Link>
+                                    <Link href="https://www.rayuresetratures.fr/le-haut-potentiel-emotionnel/" className="border-b-2 px-1 border-black" target="blank">En savoir plus</Link>
                                 </div>
                             </div>
                         </div>
@@ -159,8 +156,7 @@ export default function Neuroatypie() {
                                     Les personnes hypersensibles perçoivent leur environnement avec une grande acuité, ce qui peut être une force (créativité, empathie, sens du détail), mais aussi un défi dans un monde souvent trop stimulant.
                                 </div>
                                 <div className="space-x-5">
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 1</Link>
-                                    <Link href="/" className="border-b-2 px-1 border-black" target="blank">Lien 2</Link>
+                                    <Link href="https://www.sante.fr/lhypersensibilite-cest-quoi" className="border-b-2 px-1 border-black" target="blank">En savoir plus</Link>
                                 </div>
                             </div>
                         </div>
