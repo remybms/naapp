@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <Link href="#discord" className="flex tablet:hidden"><img src="/img/fleche.png" width="200" /></Link>
           <Link href="#presentation" className="hidden tablet:flex"><img src="/img/fleche.png" width="300" /></Link>
-          <div className="tablet:grid tablet:grid-cols-3 tablet:items-center tablet:mt-10 pc:mx-[15%]" id="discord">
+          <div className="tablet:grid tablet:grid-cols-3 tablet:items-center tablet:mt-10 pc:ml-[15%]" id="discord">
             <div className="flex text-center tablet:text-start tablet:items-start flex-col m-4 space-y-4 items-center col-span-2">
               <div className="font-bold text-4xl pc:text-5xl">Nouveau serveur Discord</div>
               <div className="pc:text-xl">
