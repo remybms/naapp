@@ -1,8 +1,5 @@
-"use client"
-
 import localFont from "next/font/local";
 import "./globals.css";
-import { useEffect } from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,48 +13,13 @@ const geistMono = localFont({
 });
 
 
-export default function RootLayout({ children }) {
-  useEffect(() => {
-    window.interdeal = {
-      "sitekey": "83ba71bf18d84207f7fb0b18fa77c25e",
-      "Position": "Right",
-      "domains": {
-        "js": "https://cdn.equalweb.com/",
-        "acc": "https://access.equalweb.com/"
-      },
-      "Menulang": "FR",
-      "btnStyle": {
-        "vPosition": [
-          "90%",
-          "20%"
-        ],
-        "scale": [
-          "0.5",
-          "0.5"
-        ],
-        "color": {
-          "main": "#B87FE5",
-          "second": "#ffffff"
-        },
-        "icon": {
-          "outline": false,
-          "type": 1,
-          "shape": "circle"
-        }
-      }
-    };
-    (function (doc, head, body) {
-      var coreCall = doc.createElement('script');
-      coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
-      coreCall.defer = true;
-      coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
-      coreCall.crossOrigin = 'anonymous';
-      coreCall.setAttribute('data-cfasync', true);
-      body ? body.appendChild(coreCall) : head.appendChild(coreCall);
-    })(document, document.head, document.body);
-  })
+export default function RootLayout({ children }) {    
   return (
     <html lang="fr">
+      <head>
+        <title>NAAPP</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

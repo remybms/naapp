@@ -4,14 +4,12 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import React from "react";
 import faqData from "../../data/faq.json";
-import { useRouter } from "next/navigation";
 import { toast, ToastContainer } from "react-toastify";
 
 export default function FAQ() {
 
     const [openIndex, setOpenIndex] = React.useState(null);
     const [question, setQuestion] = React.useState("")
-    const router = useRouter()
 
 
     const toggleQuestion = (index) => {
@@ -33,7 +31,7 @@ export default function FAQ() {
             });
 
             data = await response.json();
-            if(data.success == true){
+            if (data.success == true) {
                 toast.success("Votre question a bien été envoyée !")
             } else {
                 toast.error("Une erreur est survenue, nous n'avons pas reçu votre question !")
@@ -46,27 +44,27 @@ export default function FAQ() {
     const data = faqData.faq;
     return (
         <main className="flex flex-col min-h-screen justify-between items-center bg-white text-black">
-            <ToastContainer/>
+            <ToastContainer />
             <Header />
             <h1 className="font-bold text-4xl text-center m-5">
                 Les questions les plus posées par la communauté
             </h1>
             {data.map((item, index) => {
-                return(
-                <div className="flex flex-col rounded-lg w-full pc:w-2/3 items-center m-5 mx-12 px-2 pc:px-0" onClick={() => toggleQuestion(index)} key={index}>
-                    <div className="flex border-b-2 w-full px-2">
-                        <h2 className="font-bold text-2xl">
-                            {item.question}
-                        </h2>
-                        <div className="justify-center self-end ml-auto text-3xl">
-                            {openIndex === index ? "-" : "+"}
+                return (
+                    <div className="flex flex-col rounded-lg w-full pc:w-2/3 items-center m-5 mx-12 px-2 pc:px-0" onClick={() => toggleQuestion(index)} key={index}>
+                        <div className="flex border-b-2 w-full px-2">
+                            <h2 className="font-bold text-2xl">
+                                {item.question}
+                            </h2>
+                            <div className="justify-center self-end ml-auto text-3xl">
+                                {openIndex === index ? "-" : "+"}
+                            </div>
                         </div>
-                    </div>
 
-                    <div className={openIndex === index ? "flex mx-5" : "hidden"}>
-                        {item.answer}
-                    </div>
-                </div>)
+                        <div className={openIndex === index ? "flex mx-5" : "hidden"}>
+                            {item.answer}
+                        </div>
+                    </div>)
             })}
 
             <div className=" flex flex-col w-full bg-black text-white p-5 space-y-10 py-10 mt-5">
