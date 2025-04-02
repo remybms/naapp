@@ -4,7 +4,7 @@ export async function POST(request) {
   try {
     const client = await clientPromise;
     const database = client.db('naapp');
-    const collection = database.collection('formulaires');
+    const collection = database.collection('questions');
 
     const data = await request.json();
 
