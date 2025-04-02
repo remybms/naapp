@@ -112,12 +112,12 @@ export default function Neuroatypie() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col items-end space-y-3" id="precointellect">
+                    <div className="flex flex-col items-end space-y-3 w-fit" id="precointellect">
                         <img src="/img/neuroatypie/fond.png" alt="Image de fond" className="absolute pc:w-2/3 tablet:w-screen h-[28rem] hidden tablet:flex" />
                         <div className="z-10 tablet:flex tablet:flex-row-reverse items-center pc:w-2/3 tablet:w-screen tablet:px-10 tablet:h-[28rem] space-y-5 tablet:space-y-0">
                             <img src="/img/neuroatypie/preco_intellect.png" alt="La précocité intellectuelle" className="tablet:w-[15rem] tablet:m-2" />
                             <div className="flex flex-col items-end space-y-3">
-                                <h2 className="font-bold text-3xl">La précocité intellectuelle</h2>
+                                <h2 className="font-bold text-3xl text-end">La précocité intellectuelle</h2>
                                 <div className="text-justify">
                                     <span className="font-bold">La précocité intellectuelle</span>, aussi appelée <span className="font-bold">Haut Potentiel Intellectuel (HPI)</span>, désigne un fonctionnement cognitif atypique caractérisé par une intelligence supérieure à la moyenne. Selon le QI mesuré, on distingue le <span className="font-bold">HPI (≥130)</span>, le <span className="font-bold">Très Haut Potentiel Intellectuel (THPI) (≥145)</span> et le <span className="font-bold">Très Très Haut Potentiel Intellectuel (TTHPI) (≥160)</span>
                                 </div>
