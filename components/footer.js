@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <>
-            <div className="hidden tablet:grid grid-cols-5 gap-4 p-4 text-gray-500 my-10 border-t-2 border-gray-500">
+            <div className="hidden tablet:grid grid-cols-5 gap-4 pb-4 pt-14 px-[10%] text-gray-500 my-10 border-t-2 border-gray-500">
                 <div className="col-span-2">
                     <img src="/img/LOGO_PRINCIPAL.png" className="w-1/2" />
                     <div className="text-gray-500 w-2/3">
@@ -34,8 +34,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex flex-col tablet:hidden p-4 space-y-2">
-                <img src="/img/LOGO_PRINCIPAL.png" className="w-1/2" />
-                <div className="text-gray-500">
+                <img src="/img/LOGO_PRINCIPAL.png" className="w-1/2 mt-8" />
+                <div className="text-gray-500 pb-4">
                     Retrouvez-nous sur vos plateformes préférées pour ne rien manquer de nos actualités, épisodes de podcast et événements.
                     Vous souhaitez partager votre expérience, poser une question ou simplement nous contacter ? Nous sommes à votre écoute !
                 </div>

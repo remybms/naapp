@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { IoLogoDiscord } from 'react-icons/io5'
 
 export default function Header(){
+
+
     return (
         <>
         <div className="hidden tablet:flex bg-gradient-to-r from-blue to-violet w-full text-white h-24 items-center justify-around">

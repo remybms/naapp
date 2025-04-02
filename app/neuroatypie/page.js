@@ -8,15 +8,15 @@ export default function Neuroatypie() {
             <Header />
             <div className="flex flex-col items-center justify-center p-10 w-screen space-y-5 mb-10">
                 <h1 className="font-bold text-4xl pc:text-6xl">Les différents troubles neuroatypiques</h1>
-                <div className="pc:px-96 text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat ex ut justo gravida, ac commodo tortor consequat. Etiam gravida purus id neque auctor, eget sagittis sem fringilla. Maecenas justo diam, semper eget vulputate ut, vehicula in diam.
+                <div className="pc:w-2/3 text-justify">
+                    La neuroatypie désigne les fonctionnements neurologiques qui diffèrent de la norme majoritaire, appelée neurotypique. Ces particularités influencent la manière de penser, d’apprendre, de percevoir le monde et d’interagir avec les autres. Elles ne sont ni une maladie ni un défaut, mais une forme de diversité cognitive qui mérite d’être mieux comprise et reconnue. Chaque personne neuroatypique a ses propres forces et défis, et c’est en adaptant notre regard et nos environnements que nous pouvons créer une société plus inclusive.
                 </div>
-                <div className="grid grid-cols-3 pc:grid-cols-5 text-gray-600">
+                <div className="grid grid-cols-3 pc:grid-cols-5 pc:w-2/3 text-gray-600 tablet:text-justify">
                     <img src="/img/neuroatypie/warning.png" alt="attention" className="pc:size-40" />
                     <div className="col-span-2 pc:col-span-4 pc:place-content-center">
                         <div>Disclaimer :</div>
                         <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat ex ut justo gravida, ac commodo tortor consequat.
+                        NAAPP est un projet étudiant de sensibilisation, pas une source médicale. Pour un diagnostic ou un accompagnement, consultez un professionnel.
                         </div>
                     </div>
                 </div>

@@ -38,13 +38,13 @@ export default function FAQ() {
                 </div>)
             })}
 
-            <div className=" flex flex-col w-full bg-black text-white p-5 space-y-5">
-                <div className="self-center text-xl tablet:text-2xl pc:text-3xl font-bold w-fit">
+            <div className=" flex flex-col w-full bg-black text-white p-5 space-y-10 py-10 mt-5">
+                <div className=" text-xl tablet:text-2xl pc:text-3xl font-bold w-fit pc:mx-[16.5%]">
                     Vous ne trouvez pas votre réponse ? Posez votre question ici !
                 </div>
-                <form className="flex items-center justify-center">
-                    <input type="text" placeholder="Posez votre question ici" className="p-2 rounded-none rounded-l-lg w-4/5 h-[2.5rem] tablet:text-[1.5rem] tablet:h-[5rem] text-black focus:outline-none" />
-                    <button type="submit" className="bg-white text-black p-2 rounded-r-lg"><img src="/img/faq/envoie.png" className="size-[1.5rem] tablet:size-[4rem]" /></button>
+                <form className="flex items-center justify-center pc:mx-[10%]">
+                    <input type="text" placeholder="Posez votre question ici" className="p-2 rounded-none rounded-l-lg w-4/5 h-[2.5rem] tablet:text-[150%] tablet:h-[3.5rem] text-black focus:outline-none" />
+                    <button type="submit" className="bg-white text-black p-2 rounded-r-lg"><img src="/img/faq/envoie.png" className="size-[1.5rem] tablet:size-[2.5rem]" /></button>
                 </form>
             </div>
             <Footer />
