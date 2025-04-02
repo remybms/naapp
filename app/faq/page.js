@@ -52,7 +52,7 @@ export default function FAQ() {
             {data.map((item, index) => {
                 return (
                     <div className="flex flex-col rounded-lg w-full pc:w-2/3 items-center m-5 mx-12 px-2 pc:px-0" onClick={() => toggleQuestion(index)} key={index}>
-                        <div className="flex border-b-2 w-full px-2">
+                        <div className="flex border-b-2 w-full px-2 pb-3">
                             <h2 className="font-bold text-2xl">
                                 {item.question}
                             </h2>
@@ -61,7 +61,7 @@ export default function FAQ() {
                             </div>
                         </div>
 
-                        <div className={openIndex === index ? "flex mx-5" : "hidden"}>
+                        <div className={openIndex === index ? "flex mx-5 pt-3" : "hidden"}>
                             {item.answer}
                         </div>
                     </div>)
