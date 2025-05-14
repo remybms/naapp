@@ -25,7 +25,7 @@ export default function Community() {
                                 </div>
                             </div>
                         </Link>
-                        <Link href="https://open.spotify.com/user/31kn2za6r6axcgwtfsjmav5seoce?si=0550a34ac9254720" target="blank" className="p-1 bg-gradient-to-r from-[#1DB954] from-60% to-[#8EA8F6] text-green-500 font-bold hover:animate-zoomIn rounded-full w-full tablet:w-2/3 pc:w-full" id="discord">
+                        <Link href="https://open.spotify.com/show/4qopnaYij29LqKlJSeL6XS?si=V0hxyyVhS3KQeQlGkA3VlA&nd=1&dlsi=6d73097237084146" target="blank" className="p-1 bg-gradient-to-r from-[#1DB954] from-60% to-[#8EA8F6] text-green-500 font-bold hover:animate-zoomIn rounded-full w-full tablet:w-2/3 pc:w-full" id="discord">
                             <div className="flex items-center bg-white hover:bg-green-500 rounded-full p-4 space-x-2 justify-center  hover:text-white">
                                 <FaSpotify size={42} />
                                 <div>
