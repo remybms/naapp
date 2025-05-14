@@ -29,7 +29,7 @@ export default function Home() {
                 Vous souhaitez échanger avec d’autres personnes neuroatypiques, poser vos questions ou simplement partager votre expérience ? Notre serveur Discord est un espace bienveillant où vous pourrez discuter, découvrir des ressources et participer à nos événements en ligne.
               </div>
               <Link href="https://discord.gg/wcRW6wfNq6" target="blank" className="p-1 border-4 border-violet text-white font-bold hover:animate-zoomIn rounded-full w-full tablet:w-3/4 pc:w-1/2">
-                <div className="flex items-center bg-violet hover:bg-white rounded-full p-4 space-x-2 justify-center  hover:text-violet">
+                <div className="flex items-center bg-violet hover:bg-white rounded-full p-3 tablet:p-4 space-x-2 justify-center  hover:text-violet">
                   <FaDiscord size={42} />
                   <div>
                     REJOIGNEZ NOTRE SERVEUR !
