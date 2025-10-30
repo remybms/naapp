@@ -13,7 +13,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-col space-y-4">
-                    <h2 className="font-bold text-2xl text-black">Company</h2>
+                    <h2 className="font-bold text-2xl text-black">Notre projet</h2>
                     <Link href="/neuroatypie">La neuroatypie</Link>
                     <Link href="/community">Communauté</Link>
                     <Link href="/community">L'actualité</Link>
